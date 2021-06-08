@@ -21,7 +21,7 @@ if ($_SESSION['ingelogd'] != true) {
     <meta name="author" content="Luuk van Duijvenbode">
     <meta name="keywords" content="">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="css">
+    <link rel="stylesheet" type="text/css" href="css/rad.css">
 </head>
 
 <body>
