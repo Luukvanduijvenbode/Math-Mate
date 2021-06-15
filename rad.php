@@ -26,8 +26,7 @@ if ($_SESSION['ingelogd'] != true) {
        
 <body>
 <img id="rad" src="rad.png">
-
-    <header>
+<header>
         <nav>
             </ul>
             <li><a id="uitloggen" href="uitloggen.php">Uitloggen</a></li>
