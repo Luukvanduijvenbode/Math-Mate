@@ -25,7 +25,7 @@ if ($_SESSION['ingelogd'] != true) {
 </head>
        
 <body>
-<img id="rad" src="">
+<img id="rad" src="rad.png">
 
     <header>
         <nav>
