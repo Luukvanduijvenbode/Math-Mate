@@ -35,7 +35,7 @@ if ($_SESSION['ingelogd'] != true) {
             <li><a class="menu" href="rekenpagina1.php">Eenvoudige rekenpagina</a></li>
             <li><a class="menu" href="#">Reeksen</a></li>
             <li><a class="menu" href="#">Complexe rekenpagina</a></li>
-            <li><a class="menu" href="#">Rad van foortuin</a></li>
+            <li><a class="menu" href="rad.php">Rad van foortuin</a></li>
             <li><a class="menu" href="#">Game pagina</a></li>
             </ul>
         </nav>
