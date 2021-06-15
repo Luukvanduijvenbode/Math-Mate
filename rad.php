@@ -25,7 +25,7 @@ if ($_SESSION['ingelogd'] != true) {
 </head>
        
 <body>
-<img id="rad" src="rad.png">
+    <img id="wheel" src="foto's/naamloos-2.png">
 <header>
         <nav>
             </ul>

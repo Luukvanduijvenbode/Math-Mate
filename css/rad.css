@@ -81,6 +81,11 @@ nav {
     background-size: cover;
 }
 
-#rad{
+#wheel{
+    width: 600px;
+    transform: rotate(360deg);
+    transition: 6s;
+    background-size: cover;
+    margin-top: 200px;
     position: absolute;
 }
