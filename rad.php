@@ -23,8 +23,9 @@ if ($_SESSION['ingelogd'] != true) {
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="css/rad.css">
 </head>
-
+       
 <body>
+<img id="rad" src="">
 
     <header>
         <nav>
