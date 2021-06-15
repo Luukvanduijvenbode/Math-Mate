@@ -40,3 +40,8 @@ if ($_SESSION['ingelogd'] != true) {
             </ul>
         </nav>
     </header>
+    <div id="dRad1"></div>
+    <input type="button" value="DRAAI" onclick="draaiRad()"  />
+    <script  type="text/javascript" src="javascript/rad.js"></script> 
+    </body>
+    </html>
