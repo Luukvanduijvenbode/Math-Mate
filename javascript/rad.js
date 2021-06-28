@@ -1,4 +1,5 @@
 function draaiRad(){
+<<<<<<< HEAD
     var deg = 3600;
     var random = Math.floor(Math.random() * 361);
     deg = deg + random;
@@ -23,5 +24,8 @@ function draaiRad(){
 
 
     document.getElementById('dRad1').style.transform = "rotate("+deg+"deg)";
+=======
+    document.getElementById('dRad1').style.transform = "rotate(2390deg)";
+>>>>>>> 90bd928382537ad232b14b5c87866c28e7b55dc7
     document.getElementById('dRad1').style.transition = "5s";
 }
