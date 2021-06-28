@@ -25,11 +25,6 @@ if ($_SESSION['ingelogd'] != true) {
 </head>
        
 <body>
-<<<<<<< HEAD
-
-=======
-    <img id="wheel" src="foto's/naamloos-2.png">
->>>>>>> 90bd928382537ad232b14b5c87866c28e7b55dc7
 <header>
         <nav>
             </ul>
@@ -45,11 +40,7 @@ if ($_SESSION['ingelogd'] != true) {
         </nav>
     </header>
     <div id="dRad1"></div>
-<<<<<<< HEAD
     <input id="Draai" type="button" value="DRAAI" onclick="draaiRad()"  />
-=======
-    <input type="button" value="DRAAI" onclick="draaiRad()"  />
->>>>>>> 90bd928382537ad232b14b5c87866c28e7b55dc7
     <script  type="text/javascript" src="javascript/rad.js"></script> 
     </body>
     </html>
