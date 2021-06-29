@@ -76,16 +76,11 @@ nav {
 }
 
 #dRad1{
-    width: 500px;
+    width: 400px;
     height: 500px;
     margin-top: 200px;
-    margin-left: 550px;
+    margin-left: 600px;
     position: absolute;
     background-image: url('../fotos/Naamloos-2.png');
     background-size: cover;
-}
-
-#Draai{
-    margin-top: 650px;
-    margin-left: 600px;
 }

@@ -1,31 +1,60 @@
+var num1 = 720 + Math.floor(Math.random(360));
+var num2 = 720 + Math.floor(Math.random(360));
+var antwoord3 = num1 + num2;
 function draaiRad(){
-<<<<<<< HEAD
-    var deg = 3600;
-    var random = Math.floor(Math.random() * 361);
-    deg = deg + random;
-    var uitkomst = 0;
-    if(random <= 45){
-        uitkomst = 8;
-    }else if(random <= 90){
-        uitkomst = 7;
-    }else if(random <=135){
-        uitkomst = 6;
-    }else if(random <=180){
-        uitkomst = 5;
-    }else if(random <=225){
-        uitkomst = 4;
-    }else if(random <=270){
-        uitkomst = 3;
-    }else if(random <=315){
-        uitkomst = 2;
-    }else if(random <=360){
-        uitkomst = 1;
-    }
-
-
-    document.getElementById('dRad1').style.transform = "rotate("+deg+"deg)";
-=======
-    document.getElementById('dRad1').style.transform = "rotate(2390deg)";
->>>>>>> 90bd928382537ad232b14b5c87866c28e7b55dc7
+    document.getElementById('dRad1').style.transform = "rotate(" + num1 + "deg)";
     document.getElementById('dRad1').style.transition = "5s";
+    document.getElementById('dRad2').style.transform = "rotate(" + num2 + "deg)";
+    document.getElementById('dRad2').style.transition = "5s";
+    if (num1 > 780) {
+        document.getElementById("antwoord1").innerHTML = "Rad 1: 1";
+    }
+    if (num1 > 840) {
+        document.getElementById("antwoord1").innerHTML = "Rad 1: 2";
+    }
+    if (num1 > 900) {
+        document.getElementById("antwoord1").innerHTML = "Rad 1: 3";
+    }
+    if (num1 > 960) {
+        document.getElementById("antwoord1").innerHTML = "Rad 1: 4";
+    }
+    if (num1 > 1020) {
+        document.getElementById("antwoord1").innerHTML = "Rad 1: 5";
+    }
+    if (num1 > 1080) {
+        document.getElementById("antwoord1").innerHTML = "Rad 1: 6";
+    }
+    if (num1 > 1140) {
+        document.getElementById("antwoord1").innerHTML = "Rad 1: 7";
+}
+    if (num1 > 1200) {
+        document.getElementById("antwoord1").innerHTML = "Rad 1: 8";
+}
+
+    if (num2 > 780) {
+        document.getElementById("antwoord2").innerHTML = "Rad 2: 1";
+    }
+    if (num2 > 840) {
+        document.getElementById("antwoord2").innerHTML = "Rad 2: 2";
+    }
+    if (num2 > 900) {
+        document.getElementById("antwoord2").innerHTML = "Rad 2: 3";
+    }
+    if (num2 > 960) {
+        document.getElementById("antwoord2").innerHTML = "Rad 2: 4";
+    }
+    if (num2 > 1020) {
+        document.getElementById("antwoord2").innerHTML = "Rad 2: 5";
+    }
+    if (num2 > 1080) {
+        document.getElementById("antwoord2").innerHTML = "Rad 2: 6";
+    }
+    if (num2 > 1140) {
+        document.getElementById("antwoord2").innerHTML = "Rad 2: 5";
+    }
+    if (num2 > 1200) {
+        document.getElementById("antwoord2").innerHTML = "Rad 2: 6";
+    }
+    document.getElementById("volantwoord").innerHTML = antwoord3;
+
 }
